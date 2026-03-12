@@ -15,6 +15,6 @@ Files:
 - normal_distribution.cpp
 
 ### Next Steps
--Black-scholes Option Pricing
--Monte Carlo Simulation
--Greeks Calculation
+- Black-scholes Option Pricing
+- Monte Carlo Simulation
+- Greeks Calculation
