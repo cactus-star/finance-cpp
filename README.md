@@ -14,6 +14,12 @@ Files:
 - normal_distribution.h
 - normal_distribution.cpp
 
+### Week2: Black-Scholes Option Pricing
+
+Implemented:
+- European call option pricing
+- European put option pricing
+
 ### Next Steps
 - Black-scholes Option Pricing
 - Monte Carlo Simulation
