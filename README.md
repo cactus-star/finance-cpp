@@ -21,6 +21,5 @@ Implemented:
 - European put option pricing
 
 ### Next Steps
-- Black-scholes Option Pricing
 - Monte Carlo Simulation
 - Greeks Calculation
