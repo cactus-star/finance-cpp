@@ -27,9 +27,18 @@
     <ClCompile Include="normal_distribution.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="black_scholes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="normal_distribution.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="black_scholes.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

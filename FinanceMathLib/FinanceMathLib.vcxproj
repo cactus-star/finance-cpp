@@ -152,11 +152,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="black_scholes.cpp" />
     <ClCompile Include="FinanceMathLib.cpp" />
     <ClCompile Include="normal_distribution.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="black_scholes.h" />
     <ClInclude Include="normal_distribution.h" />
+    <ClInclude Include="option.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

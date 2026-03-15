@@ -4,11 +4,31 @@
 #include <iostream>
 #include "normal_distribution.h"
 
+#include "black_scholes.h"
+#include "option.h"
+
+
 int main()
 {
 	double x = 0.5;
 	std::cout << "PDF:"<<StandardNormalDistribution::pdf(x)<<std::endl;
 	std::cout << "CDF:" << StandardNormalDistribution::cdf(x) << std::endl;
+
+
+	Option opt(
+		100.0,			//S
+		100.0,			//K
+		0.05,			//r
+		0.2,			//sigma
+		1.0				//T
+	);
+
+	double call = BlackScholes::call_price(opt);
+	double put = BlackScholes::put_price(opt);
+
+	std::cout << "Call Price:" << call << std::endl;
+	std::cout << "Put Price:" << put << std::endl;
+
 	return 0;
 }
 
