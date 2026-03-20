@@ -24,10 +24,16 @@
     <ClCompile Include="FinanceMathLib.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="normal_distribution.cpp">
+    <ClCompile Include="src\monte_carlo.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="black_scholes.cpp">
+    <ClCompile Include="src\black_scholes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\normal_distribution.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payoff.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,7 +44,13 @@
     <ClInclude Include="option.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="black_scholes.h">
+    <ClInclude Include="include\black_scholes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\monte_carlo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\payoff.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

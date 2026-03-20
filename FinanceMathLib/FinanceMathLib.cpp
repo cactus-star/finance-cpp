@@ -6,6 +6,8 @@
 
 #include "black_scholes.h"
 #include "option.h"
+#include "monte_carlo.h"
+#include "payoff.h"
 
 
 int main()
@@ -28,6 +30,11 @@ int main()
 
 	std::cout << "Call Price:" << call << std::endl;
 	std::cout << "Put Price:" << put << std::endl;
+
+	//double mc_price = MonteCarloPricer::call_price(opt, 1000000);
+	CallPayoff callpayoff(100);
+	double mc_price = MonteCarloPricer::price(opt, callpayoff,1000000);
+	std::cout << "MonteCarlo Price:" << mc_price << std::endl;
 
 	return 0;
 }

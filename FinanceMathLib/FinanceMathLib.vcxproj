@@ -152,12 +152,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="black_scholes.cpp" />
     <ClCompile Include="FinanceMathLib.cpp" />
-    <ClCompile Include="normal_distribution.cpp" />
+    <ClCompile Include="src\black_scholes.cpp" />
+    <ClCompile Include="src\payoff.cpp" />
+    <ClCompile Include="src\monte_carlo.cpp" />
+    <ClCompile Include="src\normal_distribution.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="black_scholes.h" />
+    <ClInclude Include="include\black_scholes.h" />
+    <ClInclude Include="include\monte_carlo.h" />
+    <ClInclude Include="include\payoff.h" />
     <ClInclude Include="normal_distribution.h" />
     <ClInclude Include="option.h" />
   </ItemGroup>
