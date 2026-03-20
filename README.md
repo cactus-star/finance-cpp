@@ -31,7 +31,7 @@ Implemented:
 - support for call options
 - payoff abstraction
 
-# Design Highlights:
+Design Highlights:
 1. payoff abstraction: 新しいpayoffに拡張可能
   - payoff ( interface )
   - callpayoff ( derived classed)
