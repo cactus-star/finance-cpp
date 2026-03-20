@@ -39,7 +39,8 @@ Design Highlights:
 2. Monte Carlo Pricing
   - random number generation using std::mt19937
   - standard normal sampling via std::normal_distribution
-  - simulatin under Geometric Brownian Motion:$S_T=S_\cdot \exp( (r- \frac{1}{2}\sigma^2)T + \sigma \sqrt{T} Z\right)
+  - simulatin under Geometric Brownian Motion:
+    $S_T=S_\cdot \exp( (r- \frac{1}{2}\sigma^2)T + \sigma \sqrt{T} Z\right)
   
 ### Next Steps
 - Greeks Calculation
