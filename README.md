@@ -40,7 +40,7 @@ Design Highlights:
   - random number generation using std::mt19937
   - standard normal sampling via std::normal_distribution
   - simulatin under Geometric Brownian Motion:
-    $S_T=S_\cdot \exp( (r- \frac{1}{2}\sigma^2)T + \sigma \sqrt{T} Z\right)
+    S_T=S_0 *exp( (r - 0.5 * sigma^2)*T + sigma * sqrt{T} * Z),  Z ~ N (0,1)
   
 ### Next Steps
 - Greeks Calculation
