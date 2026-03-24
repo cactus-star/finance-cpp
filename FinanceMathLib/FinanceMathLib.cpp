@@ -8,6 +8,7 @@
 #include "option.h"
 #include "monte_carlo.h"
 #include "payoff.h"
+#include "greeks.h"
 
 
 int main()
@@ -35,6 +36,15 @@ int main()
 	CallPayoff callpayoff(100);
 	double mc_price = MonteCarloPricer::price(opt, callpayoff,1000000);
 	std::cout << "MonteCarlo Price:" << mc_price << std::endl;
+
+	double delta = Greeks::delta(opt,callpayoff,0.01,100000);
+	double vega = Greeks::vega(opt, callpayoff, 0.01, 100000);
+	double gamma = Greeks::gamma(opt, callpayoff, 0.01, 100000);
+
+	std::cout << "Greeks Delta:" << delta << std::endl;
+	std::cout << "Greeks Vega:" << vega << std::endl;
+	std::cout << "Greeks Gamma:" << gamma << std::endl;
+
 
 	return 0;
 }

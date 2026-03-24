@@ -154,12 +154,14 @@
   <ItemGroup>
     <ClCompile Include="FinanceMathLib.cpp" />
     <ClCompile Include="src\black_scholes.cpp" />
+    <ClCompile Include="src\greeks.cpp" />
     <ClCompile Include="src\payoff.cpp" />
     <ClCompile Include="src\monte_carlo.cpp" />
     <ClCompile Include="src\normal_distribution.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\black_scholes.h" />
+    <ClInclude Include="include\greeks.h" />
     <ClInclude Include="include\monte_carlo.h" />
     <ClInclude Include="include\payoff.h" />
     <ClInclude Include="normal_distribution.h" />
